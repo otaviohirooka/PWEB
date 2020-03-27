@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    font: 15px 'Montserrat', sans-serif;
+    margin: 10;
+    padding: 0;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.containerContent {
+    display: flex;
+    flex-direction: row;
+}
+
+#imgIoT {
+    width: 250px;
+}
+
+#imgFuture {
+    margin-right: 10px;
+}
+
+.mainTitle {
+    color: #FFFFFF;
+    background-color: #41CBFF;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.reference {
+    display: flex;
+    flex-direction: column;
+}
