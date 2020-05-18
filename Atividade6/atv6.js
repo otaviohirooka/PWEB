@@ -17,4 +17,3 @@ Aluno3.RA = prompt("RA do terceiro aluno:")
 alert("Primeiro aluno: " + Aluno1.nome + ". RA: " + Aluno1.RA)
 alert("Segundo aluno: " + Aluno2.nome + ". RA: " + Aluno2.RA)
 alert("Terceiro aluno: " + Aluno3.nome + ". RA: " + Aluno3.RA)
-shaka
