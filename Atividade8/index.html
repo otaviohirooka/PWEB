@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Atividade 8</title>
+    </head>
+    <body>
+        <!-- <div class="image"></div> -->
+        <img src="imgs/janelaFechada.jpg"
+            onmousemove="openWindow(this);"
+            onclick="brokenWindow(this);"
+            onmouseout="closeWindow(this)"
+            alt="Janela Fechada"
+            width="513" height="342"
+            title="Janela Fechada">
+        <script>
+            function openWindow(imagem) {
+                imagem.src="imgs/janelaAberta.jpg"
+            }
+            function brokenWindow(imagem) {
+                imagem.src="imgs/janelaQuebrada.jpg"
+            }
+            function closeWindow(imagem) {
+                imagem.src="imgs/janelaFechada.jpg"
+            }
+        </script>
+    </body>
+</html>
