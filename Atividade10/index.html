@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <title>Atividade 10</title>
+    </head>
+    <body>
+        <div class="titleContainer">
+            <h1 class="title">Formulário Principal</h1>
+            <text class="line">_____________________________________________</text>
+        </div>
+        <form name="newForm" onsubmit="return validData()" method="post">
+            <div class="form">
+                <text class="nameTitle">Nome:</text>
+                <input type="text" id="name">
+                <text class="emailTitle">E-mail:</text>
+                <input type="text" id="email">
+                <text class="commentsTitle">Comentário</text>
+                <textarea id="comment"></textarea>
+            </div>
+            <div class="search">
+                <text class="titleSearch">Pesquisa:</text>
+                <text class="question">Primeira vez na página?</text>
+                <div class="checkboxContainer">
+                    <input type="radio" id="reply" name="pesquisa" value="s" title="Clique aqui se já visitou antes!!!">Sim
+                    <input type="radio" id="reply" name="pesquisa" value="n" title="Clique aqui se já visitou antes!!!">Não
+                </div>
+                <div class="buttons">
+                    <input type="submit" id="send" value="Enviar">
+                    <input type="button" id="clean" value="Limpar">
+                </div>
+            </div>
+        </form>
+        <script type="text/javascript" src=index.js></script>
+    </body>
+</html>

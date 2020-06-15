@@ -1,0 +1,47 @@
+body {
+    background-color: aqua;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.title, .line {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.form input, .form textarea {
+    width: 350px;
+}
+
+.form textarea {
+    height: 100px;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleSearch {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.question, .checkboxContainer, .buttons {
+    margin: 5px;
+}
